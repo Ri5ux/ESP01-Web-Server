@@ -1,0 +1,79 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    background: #000000;
+    color: #AAAAAA;
+    font-family: "Segoe UI", Arial;
+    font-weight: 100;
+}
+body{
+    margin: 20px auto;
+    padding: 0px;
+    max-width: 900px;
+    background: #232323;
+}
+#wrapper{
+    display: table;
+    width: 100%;
+}
+#sidebar{
+    display: table-cell;
+    background: #343434;
+    vertical-align: top;
+    width: 200px;
+}
+#sidebar a {
+    display: block;
+    color: #00AAFF;
+    text-decoration: none;
+    padding: 2px 10px 4px 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+#sidebar a:hover {
+    color: #00CCFF;
+    background: rgba(0, 0, 0, 0.15);
+}
+#sidebar .title {
+    padding: 5px 10px;
+    font-weight: 600;
+    background: rgba(0, 0, 0, 0.1);
+}
+#content{
+    display: table-cell;
+    padding: 20px;
+    vertical-align: top;
+}
+#copyright{
+    font-size: 12px;
+    margin-top: 20px;
+    padding: 10px;
+}
+h1{
+    font-size: 28px;
+    font-weight: 200;
+    color: #DDDDDD;
+    margin-top: 0px;
+}
+h3{
+    font-weight: 200;
+    margin: 5px 0px;
+    color: #DDDDDD;
+}
+.key{
+    width: 200px;
+}
+.value{
+    color: #00CCFF;
+}
+table{
+    width: 100%;
+}
+#SignalStrengthMeter{
+    width: 100%;
+    background-color: #121212;
+}
+#SignalStrengthBar{
+    width: 1%;
+    height: 7px;
+    background-color: #66FF00;
+}
